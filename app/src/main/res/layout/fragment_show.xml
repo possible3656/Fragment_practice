@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".showFragment"
+android:layout_gravity="center_vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/first_name_goes_here"
+    android:layout_centerHorizontal="true"
+    android:textSize="20sp"
+    android:textColor="@color/colorAccent"
+    android:id="@+id/textView_firstName"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/second_name_goes_here"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/textView_firstName"
+        android:paddingTop="20dp"
+        android:id="@+id/textView_secondName"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/third_name_goes_here"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/textView_secondName"
+        android:paddingTop="20dp"
+        android:id="@+id/textView_thirdName"
+        />
+
+</RelativeLayout>

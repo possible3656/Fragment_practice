@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fragment_practice</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_first_name">enter your first name</string>
+    <string name="enter_your_second_name">enter your second name</string>
+    <string name="enter_your_third_name">enter your third name</string>
+    <string name="save">save</string>
+    <string name="first_name_goes_here">first name goes here</string>
+
+    <string name="second_name_goes_here">second name goes here</string>
+    <string name="third_name_goeshere">third name goeshere</string>
+    <string name="third_name_goes_here">third name goes here</string>
+</resources>
